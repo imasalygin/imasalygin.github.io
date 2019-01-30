@@ -9,4 +9,5 @@ deploy:
   local_dir: docs/.vuepress/dist
   keep-history: true
   on:
-    branch: master
+    branch: source
+  target-branch: master
