@@ -3,7 +3,10 @@ module.exports = {
   description: "Заметки о web-технологиях",
   base: "/",
 
-  plugins: ['@vuepress/blog'],
+  plugins: [
+    // "@vuepress/blog",
+    ["@vuepress/google-analytics", { ga: "UA-133485844-1" }]
+  ],
 
   themeConfig: {
     nav: [
